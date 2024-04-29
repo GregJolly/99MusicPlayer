@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7769bdd85f.js" crossorigin="anonymous"></script>
+
+    <title>99Wolv</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <a id="spotify-link"> <i class="fa-brands fa-spotify" id="spotify-btn"> </i>
+                        </a>
+                </div>
+                <div class="album-name"></div>
+                <div class="circle">
+                    <i class="fa-solid fa-circle-arrow-down" id="download"></i>  
+                    <a id="downloadLink"></a>
+                </div>
+            </nav>
+
+            <img class="song-img"></img>
+            <h1 class="song-name"></h1>
+            <p class="artist-name"></p>
+
+            <audio id="song"></audio>
+
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div ><i class="fa-solid fa-backward" id="back"></i></div>
+                <div ><i class="fa-solid fa-play" id="ctrlIcon"></i> </div>
+                <div ><i class="fa-solid fa-forward" id="forward"></i> </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    
+
+</body>
+</html>
