@@ -40,7 +40,7 @@ const setMusic = (i) =>
 
     songName.innerHTML = song.name; 
     artistName.innerHTML = song.artist; 
-    coverArt.src = song.imgSrc; 
+    
     albumName.innerHTML = song.album;
     
     setTimeout(()=>{
